@@ -26,4 +26,4 @@ With your virtualenv active, navigate to the directory with requirements.txt and
 
 The manage.py file allows you to run python commands within the context of your project. In the directory containing your manage.py file, run ```python manage.py migrate``` to synchronize your database, and then ```python manage.py createsuperuser``` to make yourself an account. You can run ```python manage.py runserver``` at any point to spin up a local version of your site.
 
-You can access the app section at http://127.0.0.1:8000/simple_app, and the api section at http://127.0.0.1:8000/simple_api.
+You can access your site at http://127.0.0.1:8000.
